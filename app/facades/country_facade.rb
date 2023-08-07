@@ -7,7 +7,7 @@ class CountryFacade
 
   def get_capital(country)
     results = service.get_capital(country)
-    Country.new(results)
+    Country.new(results.first)
   end
 
   def service

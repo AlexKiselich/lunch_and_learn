@@ -1,0 +1,366 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.api-ninjas.com/v1/airquality?Abuja&X-Api_Key=0uymlUAnBUm8K75xw0uoSw==ehMNV4Fvl19atEBJ
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.10
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 400
+      message: Bad Request
+    headers:
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '29'
+      Connection:
+      - keep-alive
+      Date:
+      - Mon, 07 Aug 2023 15:23:48 GMT
+      X-Amzn-Requestid:
+      - 2e3c4b40-34a3-4002-b3c0-306658cca516
+      Access-Control-Allow-Origin:
+      - "*"
+      Allow:
+      - GET, OPTIONS, POST
+      Access-Control-Allow-Headers:
+      - "*"
+      X-Amz-Apigw-Id:
+      - JS7kwGUWPHcFnWA=
+      Access-Control-Allow-Methods:
+      - GET, OPTIONS, POST
+      X-Amzn-Trace-Id:
+      - Root=1-64d10c84-2ce6c76958bd67ac011d9856;Sampled=0;lineage=d5ca6d75:0
+      X-Cache:
+      - Error from cloudfront
+      Via:
+      - 1.1 1850877f8309c8b6f987c10f734a7aee.cloudfront.net (CloudFront)
+      X-Amz-Cf-Pop:
+      - ORD51-C1
+      X-Amz-Cf-Id:
+      - ErFgqCn5UiDSd5CjCx5-3CnshCUfQwcFVhLJqxOcvL1u2FOKq2spvg==
+    body:
+      encoding: UTF-8
+      string: '{"error": "Missing API Key."}'
+  recorded_at: Mon, 07 Aug 2023 15:23:48 GMT
+- request:
+    method: get
+    uri: https://api.api-ninjas.com/v1/airquality?Abuja&X-Api-Key=0uymlUAnBUm8K75xw0uoSw==ehMNV4Fvl19atEBJ
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.10
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 400
+      message: Bad Request
+    headers:
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '29'
+      Connection:
+      - keep-alive
+      Date:
+      - Mon, 07 Aug 2023 15:24:54 GMT
+      X-Amzn-Requestid:
+      - 8045164c-b317-4d23-aa27-443e4a35e08e
+      Access-Control-Allow-Origin:
+      - "*"
+      Allow:
+      - GET, OPTIONS, POST
+      Access-Control-Allow-Headers:
+      - "*"
+      X-Amz-Apigw-Id:
+      - JS7vCEfbPHcF66Q=
+      Access-Control-Allow-Methods:
+      - GET, OPTIONS, POST
+      X-Amzn-Trace-Id:
+      - Root=1-64d10cc6-5c986e9f5c09fdf977689eab;Sampled=0;lineage=d5ca6d75:0
+      X-Cache:
+      - Error from cloudfront
+      Via:
+      - 1.1 1850877f8309c8b6f987c10f734a7aee.cloudfront.net (CloudFront)
+      X-Amz-Cf-Pop:
+      - ORD51-C1
+      X-Amz-Cf-Id:
+      - Okr3W7DSDK4_GGoWrOaguRqIQEldKFTxCNt5dK3nElBhXECQBnrZqg==
+    body:
+      encoding: UTF-8
+      string: '{"error": "Missing API Key."}'
+  recorded_at: Mon, 07 Aug 2023 15:24:54 GMT
+- request:
+    method: get
+    uri: https://api.api-ninjas.com/v1/airquality?Abuja
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      X-Api-Key:
+      - 0uymlUAnBUm8K75xw0uoSw==ehMNV4Fvl19atEBJ
+      User-Agent:
+      - Faraday v2.7.10
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 400
+      message: Bad Request
+    headers:
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '32'
+      Connection:
+      - keep-alive
+      Date:
+      - Mon, 07 Aug 2023 15:25:15 GMT
+      X-Amzn-Requestid:
+      - 0d677980-bdea-458a-b719-178d33a6bbd7
+      Access-Control-Allow-Origin:
+      - "*"
+      Allow:
+      - GET, OPTIONS, POST
+      Access-Control-Allow-Headers:
+      - "*"
+      X-Amz-Apigw-Id:
+      - JS7ySGIuvHcFzvg=
+      Access-Control-Allow-Methods:
+      - GET, OPTIONS, POST
+      X-Amzn-Trace-Id:
+      - Root=1-64d10cdb-1d1c639d17a1034631cadba6;Sampled=0;lineage=d5ca6d75:0
+      X-Cache:
+      - Error from cloudfront
+      Via:
+      - 1.1 007f474c20bf8a7a3cce4825eb52f2c8.cloudfront.net (CloudFront)
+      X-Amz-Cf-Pop:
+      - DEN52-P1
+      X-Amz-Cf-Id:
+      - FBHD0jYIcTQSpoDpw81rqbpAi8Jrr8LGcXYPTPkfNjUXoGP_ZWwbyQ==
+    body:
+      encoding: UTF-8
+      string: '{"error": "Invalid parameters."}'
+  recorded_at: Mon, 07 Aug 2023 15:25:15 GMT
+- request:
+    method: get
+    uri: https://api.api-ninjas.com/v1/airquality?Abuja
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      X-Api-Key:
+      - 0uymlUAnBUm8K75xw0uoSw==ehMNV4Fvl19atEBJ
+      User-Agent:
+      - Faraday v2.7.10
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 400
+      message: Bad Request
+    headers:
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '32'
+      Connection:
+      - keep-alive
+      Date:
+      - Mon, 07 Aug 2023 15:31:22 GMT
+      X-Amzn-Requestid:
+      - ac5b9f62-3e16-40b1-ad09-0cf0b15acd78
+      Access-Control-Allow-Origin:
+      - "*"
+      Allow:
+      - GET, OPTIONS, POST
+      Access-Control-Allow-Headers:
+      - "*"
+      X-Amz-Apigw-Id:
+      - JS8rtEaZPHcFdJw=
+      Access-Control-Allow-Methods:
+      - GET, OPTIONS, POST
+      X-Amzn-Trace-Id:
+      - Root=1-64d10e4a-03fb84e719f2214f220be568;Sampled=0;lineage=d5ca6d75:0
+      X-Cache:
+      - Error from cloudfront
+      Via:
+      - 1.1 f0fd475ee39ced21db4c99c5a3fdb1b2.cloudfront.net (CloudFront)
+      X-Amz-Cf-Pop:
+      - DEN52-P1
+      X-Amz-Cf-Id:
+      - pTXk4Zte9etRwwo4Q4tQFQkKlv801raK3lTLW4p3wHG2mwW5fE7rMw==
+    body:
+      encoding: UTF-8
+      string: '{"error": "Invalid parameters."}'
+  recorded_at: Mon, 07 Aug 2023 15:31:22 GMT
+- request:
+    method: get
+    uri: https://api.api-ninjas.com/v1/airqualy?cityAbuja
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      X-Api-Key:
+      - 0uymlUAnBUm8K75xw0uoSw==ehMNV4Fvl19atEBJ
+      User-Agent:
+      - Faraday v2.7.10
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '75'
+      Connection:
+      - keep-alive
+      Date:
+      - Mon, 07 Aug 2023 15:31:34 GMT
+      X-Amzn-Requestid:
+      - d6ad521a-7e66-4a3e-9a04-82c3cadc4ff0
+      X-Amzn-Errortype:
+      - MissingAuthenticationTokenException
+      X-Amz-Apigw-Id:
+      - JS8tmG-pvHcFXAg=
+      X-Cache:
+      - Error from cloudfront
+      Via:
+      - 1.1 08d2ad2df7ae14c356e73a61afe3347c.cloudfront.net (CloudFront)
+      X-Amz-Cf-Pop:
+      - DEN52-P1
+      X-Amz-Cf-Id:
+      - rJ9JgD_v0cy1CiqgsRFbRLKviIZPtSNJInq9kCORixjoXJugfae_WA==
+    body:
+      encoding: UTF-8
+      string: '{"message":"Endpoint not found. Please check your spelling and try
+        again."}'
+  recorded_at: Mon, 07 Aug 2023 15:31:34 GMT
+- request:
+    method: get
+    uri: https://api.api-ninjas.com/v1/airqualy?city=Abuja
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      X-Api-Key:
+      - 0uymlUAnBUm8K75xw0uoSw==ehMNV4Fvl19atEBJ
+      User-Agent:
+      - Faraday v2.7.10
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '75'
+      Connection:
+      - keep-alive
+      Date:
+      - Mon, 07 Aug 2023 15:32:40 GMT
+      X-Amzn-Requestid:
+      - 7f477a94-2cde-4296-8b62-5b8fa0e5f635
+      X-Amzn-Errortype:
+      - MissingAuthenticationTokenException
+      X-Amz-Apigw-Id:
+      - JS830GQMvHcFhWQ=
+      X-Cache:
+      - Error from cloudfront
+      Via:
+      - 1.1 5a94950aa5895e56460f82b3086d0b0c.cloudfront.net (CloudFront)
+      X-Amz-Cf-Pop:
+      - DEN52-P1
+      X-Amz-Cf-Id:
+      - 2JuTXYmA_UC2BxiC2VzrglnZWUavwl6PhlGWuG4P0zhVXalMhqiZTA==
+    body:
+      encoding: UTF-8
+      string: '{"message":"Endpoint not found. Please check your spelling and try
+        again."}'
+  recorded_at: Mon, 07 Aug 2023 15:32:40 GMT
+- request:
+    method: get
+    uri: https://api.api-ninjas.com/v1/airquality?city=Abuja
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      X-Api-Key:
+      - 0uymlUAnBUm8K75xw0uoSw==ehMNV4Fvl19atEBJ
+      User-Agent:
+      - Faraday v2.7.10
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '277'
+      Connection:
+      - keep-alive
+      Date:
+      - Mon, 07 Aug 2023 15:33:26 GMT
+      X-Amzn-Requestid:
+      - 0bd05d6a-af3a-47e5-8115-968f13009371
+      Access-Control-Allow-Origin:
+      - "*"
+      Allow:
+      - GET, OPTIONS, POST
+      Access-Control-Allow-Headers:
+      - "*"
+      X-Amz-Apigw-Id:
+      - JS8-9EaQvHcFY-Q=
+      Access-Control-Allow-Methods:
+      - GET, OPTIONS, POST
+      X-Amzn-Trace-Id:
+      - Root=1-64d10ec5-23a4056244ae6b59058a0f24;Sampled=0;lineage=d5ca6d75:0
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 5a94950aa5895e56460f82b3086d0b0c.cloudfront.net (CloudFront)
+      X-Amz-Cf-Pop:
+      - DEN52-P1
+      X-Amz-Cf-Id:
+      - X3HX1F7-EiuJWxhP-RKjY4_UGvthCWfgSASx1MwINl2sRK8gqTIy5g==
+    body:
+      encoding: UTF-8
+      string: '{"CO": {"concentration": 433.92, "aqi": 4}, "NO2": {"concentration":
+        2.96, "aqi": 3}, "O3": {"concentration": 29.68, "aqi": 25}, "SO2": {"concentration":
+        0.31, "aqi": 0}, "PM2.5": {"concentration": 4.21, "aqi": 13}, "PM10": {"concentration":
+        5.17, "aqi": 4}, "overall_aqi": 25}'
+  recorded_at: Mon, 07 Aug 2023 15:33:26 GMT
+recorded_with: VCR 6.2.0

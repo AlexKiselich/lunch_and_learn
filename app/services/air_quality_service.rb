@@ -1,6 +1,6 @@
-def AirQualityService
+class AirQualityService
   def air_quality(city)
-    get_url("/v1/airquality?#{city}")
+    get_url("/v1/airquality?city=#{city}")
   end
 
 
@@ -12,7 +12,7 @@ def AirQualityService
 
   def conn
     Faraday.new(url: "https://api.api-ninjas.com") do |f|
-      f.params["X-Api_Key"] = ENV["AIR_QUALITY_KEY"]
+      f.headers["X-Api-Key"] = ENV["AIR_QUALITY_KEY"]
     end
   end
 end
