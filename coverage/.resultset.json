@@ -1,139 +1,25 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/alexkiselich/turing_work/3mod/projects/final/lunch_and_learn/app/controllers/api/v1/air_quality_controller.rb": {
-        "lines": [
-          1,
-          1,
-          1,
-          1,
-          null,
-          1,
-          null,
-          null
-        ]
-      },
-      "/Users/alexkiselich/turing_work/3mod/projects/final/lunch_and_learn/app/controllers/application_controller.rb": {
-        "lines": [
-          1,
-          null
-        ]
-      },
-      "/Users/alexkiselich/turing_work/3mod/projects/final/lunch_and_learn/app/facades/country_facade.rb": {
-        "lines": [
-          1,
-          1,
-          0,
-          0,
-          0,
-          null,
-          null,
-          1,
-          1,
-          1,
-          null,
-          null,
-          1,
-          1,
-          null,
-          null
-        ]
-      },
       "/Users/alexkiselich/turing_work/3mod/projects/final/lunch_and_learn/app/services/country_service.rb": {
         "lines": [
           1,
           1,
-          0,
-          null,
-          null,
-          1,
-          1,
-          null,
-          null,
-          1,
-          1,
           1,
           null,
           null,
           1,
           1,
           null,
-          null
-        ]
-      },
-      "/Users/alexkiselich/turing_work/3mod/projects/final/lunch_and_learn/app/poros/country.rb": {
-        "lines": [
-          1,
-          1,
           null,
           1,
-          1,
-          null,
-          null
-        ]
-      },
-      "/Users/alexkiselich/turing_work/3mod/projects/final/lunch_and_learn/app/facades/air_quality_facade.rb": {
-        "lines": [
-          1,
-          1,
-          1,
-          1,
-          null,
-          null,
+          2,
+          2,
           null,
           null,
           1,
-          1,
+          2,
           null,
-          null
-        ]
-      },
-      "/Users/alexkiselich/turing_work/3mod/projects/final/lunch_and_learn/app/services/air_quality_service.rb": {
-        "lines": [
-          1,
-          1,
-          1,
-          null,
-          null,
-          null,
-          1,
-          1,
-          1,
-          null,
-          null,
-          null,
-          1,
-          1,
-          1,
-          null,
-          null,
-          null
-        ]
-      },
-      "/Users/alexkiselich/turing_work/3mod/projects/final/lunch_and_learn/app/poros/air_quality.rb": {
-        "lines": [
-          1,
-          1,
-          null,
-          null,
-          null,
-          null,
-          null,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          null,
-          null
-        ]
-      },
-      "/Users/alexkiselich/turing_work/3mod/projects/final/lunch_and_learn/app/serializers/air_quality_serializer.rb": {
-        "lines": [
-          1,
-          1,
-          1,
           null
         ]
       },
@@ -157,6 +43,19 @@
         "branches": {
         }
       },
+      "/Users/alexkiselich/turing_work/3mod/projects/final/lunch_and_learn/app/controllers/api/v1/air_quality_controller.rb": {
+        "lines": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
       "/Users/alexkiselich/turing_work/3mod/projects/final/lunch_and_learn/app/controllers/api/v1/recipes_controller.rb": {
         "lines": [
           0,
@@ -167,6 +66,55 @@
           0,
           0,
           0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/Users/alexkiselich/turing_work/3mod/projects/final/lunch_and_learn/app/controllers/application_controller.rb": {
+        "lines": [
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/Users/alexkiselich/turing_work/3mod/projects/final/lunch_and_learn/app/facades/air_quality_facade.rb": {
+        "lines": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          null,
+          null,
+          null,
+          0,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/Users/alexkiselich/turing_work/3mod/projects/final/lunch_and_learn/app/facades/country_facade.rb": {
+        "lines": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0,
+          0,
+          null,
           0,
           0,
           0,
@@ -225,6 +173,53 @@
         "branches": {
         }
       },
+      "/Users/alexkiselich/turing_work/3mod/projects/final/lunch_and_learn/app/poros/air_quality.rb": {
+        "lines": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/Users/alexkiselich/turing_work/3mod/projects/final/lunch_and_learn/app/poros/city.rb": {
+        "lines": [
+          0,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/Users/alexkiselich/turing_work/3mod/projects/final/lunch_and_learn/app/poros/country.rb": {
+        "lines": [
+          0,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
       "/Users/alexkiselich/turing_work/3mod/projects/final/lunch_and_learn/app/poros/recipe.rb": {
         "lines": [
           0,
@@ -248,8 +243,42 @@
         "branches": {
         }
       },
+      "/Users/alexkiselich/turing_work/3mod/projects/final/lunch_and_learn/app/serializers/air_quality_serializer.rb": {
+        "lines": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
       "/Users/alexkiselich/turing_work/3mod/projects/final/lunch_and_learn/app/serializers/recipe_serializer.rb": {
         "lines": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/Users/alexkiselich/turing_work/3mod/projects/final/lunch_and_learn/app/services/air_quality_service.rb": {
+        "lines": [
+          0,
+          0,
+          0,
+          0,
+          null,
+          null,
+          0,
+          0,
+          0,
+          0,
+          null,
+          null,
+          0,
+          0,
           0,
           0,
           0,
@@ -282,6 +311,6 @@
         }
       }
     },
-    "timestamp": 1691426205
+    "timestamp": 1691430105
   }
 }

@@ -7,4 +7,11 @@ RSpec.describe CountryFacade do
     expect(country).to be_a(Country)
     expect(country.name).to be_a(String)
   end
+
+  it "returns a city from a country", :vcr do
+    city = CountryFacade.new.get_capital("France")
+
+    expect(city).to be_a(City)
+    expect(city.name).to be_a(String)
+  end
 end

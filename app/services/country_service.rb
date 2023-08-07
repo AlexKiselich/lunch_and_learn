@@ -4,7 +4,7 @@ class CountryService
   end
 
   def get_capital(country)
-    get_url("/v3.1/capital/#{country}")
+    get_url("/v3.1/name/#{country}?fullText=true")
   end
 
   def get_url(url)
