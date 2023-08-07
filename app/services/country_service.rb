@@ -3,6 +3,10 @@ class CountryService
     get_url("/v3.1/all")
   end
 
+  def get_capital(country)
+    get_url("/v3.1/capital/#{country}")
+  end
+
   def get_url(url)
     response = conn.get(url)
     JSON.parse(response.body, symbolize_names: true)

@@ -5,6 +5,11 @@ class CountryFacade
     Country.new(random_country)
   end
 
+  def get_capital(country)
+    results = service.get_capital(country)
+    Country.new(results)
+  end
+
   def service
     CountryService.new
   end
