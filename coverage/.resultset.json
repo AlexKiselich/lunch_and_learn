@@ -44,7 +44,7 @@
           1,
           5,
           5,
-          55,
+          41,
           null,
           null,
           null,
@@ -95,12 +95,12 @@
           null,
           null,
           1,
-          56,
-          56,
-          56,
-          56,
-          56,
-          56,
+          42,
+          42,
+          42,
+          42,
+          42,
+          42,
           null,
           null
         ]
@@ -183,7 +183,6 @@
       },
       "/Users/alexkiselich/turing_work/3mod/projects/final/lunch_and_learn/app/controllers/api/v1/air_quality_controller.rb": {
         "lines": [
-          1,
           1,
           1,
           1,
@@ -284,6 +283,6 @@
         }
       }
     },
-    "timestamp": 1691430261
+    "timestamp": 1691430588
   }
 }
