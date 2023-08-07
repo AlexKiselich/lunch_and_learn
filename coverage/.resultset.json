@@ -1,46 +1,23 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/alexkiselich/turing_work/3mod/projects/final/lunch_and_learn/app/facades/country_facade.rb": {
-        "lines": [
-          1,
-          1,
-          1,
-          1,
-          1,
-          null,
-          null,
-          1,
-          1,
-          null,
-          null
-        ]
-      },
-      "/Users/alexkiselich/turing_work/3mod/projects/final/lunch_and_learn/app/poros/country.rb": {
+      "/Users/alexkiselich/turing_work/3mod/projects/final/lunch_and_learn/app/poros/recipe.rb": {
         "lines": [
           1,
           1,
           null,
-          1,
-          2,
           null,
-          null
-        ]
-      },
-      "/Users/alexkiselich/turing_work/3mod/projects/final/lunch_and_learn/app/services/country_service.rb": {
-        "lines": [
-          1,
-          1,
-          2,
+          null,
+          null,
           null,
           null,
           1,
-          2,
-          2,
-          null,
-          null,
           1,
-          2,
+          1,
+          1,
+          1,
+          1,
+          1,
           null,
           null
         ]
@@ -67,6 +44,41 @@
       },
       "/Users/alexkiselich/turing_work/3mod/projects/final/lunch_and_learn/app/controllers/application_controller.rb": {
         "lines": [
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/Users/alexkiselich/turing_work/3mod/projects/final/lunch_and_learn/app/facades/country_facade.rb": {
+        "lines": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/Users/alexkiselich/turing_work/3mod/projects/final/lunch_and_learn/app/facades/recipe_facade.rb": {
+        "lines": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          null,
+          0,
+          0,
           0,
           0
         ],
@@ -104,8 +116,64 @@
         ],
         "branches": {
         }
+      },
+      "/Users/alexkiselich/turing_work/3mod/projects/final/lunch_and_learn/app/poros/country.rb": {
+        "lines": [
+          0,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/Users/alexkiselich/turing_work/3mod/projects/final/lunch_and_learn/app/services/country_service.rb": {
+        "lines": [
+          0,
+          0,
+          0,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/Users/alexkiselich/turing_work/3mod/projects/final/lunch_and_learn/app/services/recipe_service.rb": {
+        "lines": [
+          0,
+          0,
+          0,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
       }
     },
-    "timestamp": 1691366008
+    "timestamp": 1691372023
   }
 }
