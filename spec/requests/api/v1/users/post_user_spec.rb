@@ -13,7 +13,7 @@ RSpec.describe 'Users API' do
 
       headers = { 'CONTENT_TYPE' => 'application/json' }
 
-      post '/api/v1/users', headers: headers, params: JSON.generate(user: user_params)
+      post '/api/v1/users', headers: headers, params: JSON.generate(user_params)
 
       created_user = User.last
       json = JSON.parse(response.body, symbolize_names: true)
@@ -38,7 +38,7 @@ RSpec.describe 'Users API' do
 
       headers = { 'CONTENT_TYPE' => 'application/json' }
 
-      post '/api/v1/users', headers: headers, params: JSON.generate(user: user_params)
+      post '/api/v1/users', headers: headers, params: JSON.generate(user_params)
 
       expect(response).to_not be_successful
       expect(response.status).to eq(400)
@@ -61,7 +61,7 @@ RSpec.describe 'Users API' do
 
       headers = { 'CONTENT_TYPE' => 'application/json' }
 
-      post '/api/v1/users', headers: headers, params: JSON.generate(user: user_params)
+      post '/api/v1/users', headers: headers, params: JSON.generate(user_params)
 
       expect(response).to_not be_successful
       expect(response.status).to eq(400)
@@ -81,7 +81,7 @@ RSpec.describe 'Users API' do
 
       headers = { 'CONTENT_TYPE' => 'application/json' }
 
-      post '/api/v1/users', headers: headers, params: JSON.generate(user: user_params)
+      post '/api/v1/users', headers: headers, params: JSON.generate(user_params)
 
       expect(response).to_not be_successful
       expect(response.status).to eq(400)

@@ -12,7 +12,7 @@ RSpec.describe 'Sessions API' do
 
       headers = { "CONTENT_TYPE" => "application/json" }
 
-      post "/api/v1/sessions", headers: headers, params: JSON.generate(session: user_params)
+      post "/api/v1/sessions", headers: headers, params: JSON.generate(user_params)
 
       expect(response).to be_successful
       expect(response.status).to eq(201)
@@ -35,7 +35,7 @@ RSpec.describe 'Sessions API' do
 
       headers = { 'CONTENT_TYPE' => 'application/json' }
 
-      post "/api/v1/sessions", headers: headers, params: JSON.generate(session: user_params)
+      post "/api/v1/sessions", headers: headers, params: JSON.generate(user_params)
 
       expect(response).to_not be_successful
       expect(response.status).to eq(400)
@@ -56,7 +56,7 @@ RSpec.describe 'Sessions API' do
 
       headers = { 'CONTENT_TYPE' => 'application/json' }
 
-      post "/api/v1/sessions", headers: headers, params: JSON.generate(session: user_params)
+      post "/api/v1/sessions", headers: headers, params: JSON.generate(user_params)
 
       expect(response).to_not be_successful
       expect(response.status).to eq(400)
