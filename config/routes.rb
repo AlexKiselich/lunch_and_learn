@@ -10,6 +10,7 @@ Rails.application.routes.draw do
       resources :air_quality, only: [:index]
       resources :learning_resources, only: [:index]
       resources :users, only: [:create]
+      resources :sessions, only: [:create]
     end
   end
 end
