@@ -1,8 +1,8 @@
-require 'rails_helper'
+require "rails_helper"
 
-RSpec.describe 'Sessions API' do
-  describe 'POST /api/v1/sessions', :vcr do
-    it 'returns a user if credentials are correct' do
+RSpec.describe "Sessions API" do
+  describe "POST /api/v1/sessions", :vcr do
+    it "returns a user if credentials are correct" do
       user = create(:user)
 
       user_params = {
@@ -25,7 +25,7 @@ RSpec.describe 'Sessions API' do
       expect(json[:data][:attributes][:api_key]).to eq(user.api_key)
     end
 
-    it 'returns an error message if password is incorrect' do
+    it "returns an error message if password is incorrect" do
       user = create(:user)
 
       user_params = {
@@ -33,7 +33,7 @@ RSpec.describe 'Sessions API' do
         "password": "wrongpassword"
       }
 
-      headers = { 'CONTENT_TYPE' => 'application/json' }
+      headers = { "CONTENT_TYPE" => "application/json" }
 
       post "/api/v1/sessions", headers: headers, params: JSON.generate(user_params)
 
@@ -46,7 +46,7 @@ RSpec.describe 'Sessions API' do
       expect(json[:error]).to eq("Invalid credentials")
     end
 
-    it 'returns an error message if email is not found' do
+    it "returns an error message if email is not found" do
       user = create(:user)
 
       user_params = {
@@ -54,7 +54,7 @@ RSpec.describe 'Sessions API' do
         "password": user.password
       }
 
-      headers = { 'CONTENT_TYPE' => 'application/json' }
+      headers = { "CONTENT_TYPE" => "application/json" }
 
       post "/api/v1/sessions", headers: headers, params: JSON.generate(user_params)
 
