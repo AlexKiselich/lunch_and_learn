@@ -39,7 +39,7 @@ RSpec.describe "search recipes", type: :request do
       expect(response).to be_successful
 
       recipes = JSON.parse(response.body, symbolize_names: true)
-
+      
       expect(recipes).to be_a(Hash)
       expect(recipes).to have_key(:data)
       expect(recipes[:data]).to be_an(Array)

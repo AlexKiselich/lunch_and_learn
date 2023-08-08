@@ -2,7 +2,6 @@ class Api::V1::UsersController < ApplicationController
   rescue_from ActiveRecord::RecordInvalid, with: :render_invalid_response
 
   def create
-    require 'pry'; binding.pry
     @user = User.create!(user_params)
     @user.update(api_key: SecureRandom.hex)
 
