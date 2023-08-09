@@ -11,31 +11,30 @@ Lunch and Learn constitutes a Ruby on Rails-based backend application that unvei
 - Ability to test both API consumption and exposure, making use of at least one mocking tool (VCR, Webmock, etc).
 
 <h2>Installation</h2>
-<h3>Running the Application Locally</h3>
 
-1. Clone this repository from the command line: `git clone git@github.com:AlexKiselich/lunch_and_learn.git`
-1. Navigate to your local repository: `cd lunch_and_learn`
-1. Install dependencies and gems: `bundle install`
-1. Set up the database and run migrations: `rails db:{create, migrate}`
-1. Configure Figaro to hide environment secret variables (see below): `bundle exec figaro install`
-1. Start the Rails server: `rails s`
+1. `git clone git@github.com:AlexKiselich/lunch_and_learn.git`
+1. `cd lunch_and_learn`
+1. `bundle install`
+1. `rails db:{create, migrate}`
+1. `bundle exec figaro install`
+1. `rails s`
 
 With your local server running, you can use a tool like [Postman](https://www.postman.com/) to make sample requests and view responses.
 
 <h3>External APIs</h3>
 Lunch and Learn's endpoints expose data from Edamam, RESTCountries, Youtube and UnSplash. You can sign up for free access to these APIs here:
 
-  - [Edamam](https://developer.edamam.com/edamam-recipe-api) - ability to search for recipes via query word for the `/api/v1/recipes` endpoint
+  - [Edamam](https://developer.edamam.com/edamam-recipe-api)
 
-  - [RESTCountries](https://restcountries.com/#api-endpoints-v3-all) - ability to get a random country name to input into Edamam's search query for the `/api/v1/recipes` endpoint.
+  - [RESTCountries](https://restcountries.com/#api-endpoints-v3-all)
 
-  - [Youtube](https://developers.google.com/youtube/v3/getting-started) - ability to receive video data to appear on the `api/v1/learning_resources` endpoint.
+  - [Youtube](https://developers.google.com/youtube/v3/getting-started)
 
-  - [Unsplash](https://unsplash.com/developers) - ability to get random photos to appear on the `api/v1/learning_resources` endpoint
+  - [Unsplash](https://unsplash.com/developers)
 
-  - [API NINJA](https://api-ninjas.com/api/airquality) - ability to get airquality data for an inputted city, utilized in the `/api/v1/air_quality` endpoint
+  - [API NINJA](https://api-ninjas.com/api/airquality)
 
-Once you have your key for each site, add them to the `config/application.yml` file generated when you configure Figaro (see Step 5, above). Please ensure you include the exact variable names below:
+Once you have your key for each site, add them to the `config/application.yml` file generated when you configure Figaro:
 
  - `EDAMAM_APP_ID: <add your key here>`
  - `EDAMAM_APPLICATION_KEY: <add your key here>`
@@ -46,6 +45,8 @@ Once you have your key for each site, add them to the `config/application.yml` f
 <h2>Testing</h2>
 
 To run the full test suite: `bundle exec rspec`
+
+(note: if you fail on one test called "returns a list of recipes from a random country" try running `bundle exec rspec` again, the VCR will run another API call with a new 200 status)
 
 <h2>EndPoints</h2>
 <details>
